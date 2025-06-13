@@ -58,7 +58,7 @@ if (isset($_GET['hapus'])) {
         </thead>
         <tbody>
             <?php foreach ($bayi_list as $bayi) { ?>
-                <tr>
+                <tr>l
                     <td><?php echo htmlspecialchars($bayi['nama']); ?></td>
                     <td><?php echo htmlspecialchars($bayi['jenis_kelamin']); ?></td>
                     <td><?php echo htmlspecialchars($bayi['umur']); ?></td>
